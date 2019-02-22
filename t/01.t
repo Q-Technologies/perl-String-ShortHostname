@@ -3,7 +3,7 @@ use warnings;
 use 5.10.0;
 
 use Test::More tests => 4;
-use lib 'lib';
+#use lib 'lib';
 use String::ShortHostname;
 
 my $fqdn = 'testhost.example.com';
